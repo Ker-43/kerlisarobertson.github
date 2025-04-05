@@ -1,0 +1,97 @@
+
+body {
+    background-color: #dceeff;
+    color: rgb(12, 2, 2);
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+header {
+    background-color: #002855;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo-container{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+    height: 80px;
+    width: 500%;
+    max-width: 300px;    
+    height: fit-content;
+    border-radius: 12px; 
+    object-fit: contain;
+}
+
+.cta-button {
+    background-color: red;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #002855;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+
+.service-img {
+    width: 10%;    
+    max-width: 100px;  
+    height: fit-content;      
+    border-radius: 12px; 
+    object-fit: contain;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: red;
+    color: black;
+    border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+
+
+.service-img {
+    width: 500%;
+    max-width: 300px;    
+    height: fit-content;
+    border-radius: 12px; 
+    object-fit: contain; 
+}
